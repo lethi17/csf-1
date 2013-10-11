@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Mary Kallem
+# Evergreen Login: kalmar19
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 2
@@ -44,6 +44,7 @@ for i in range(2,11):
 ### Problem 3
 ###
 
+
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
@@ -64,7 +65,7 @@ print "Problem 4 solution follows:"
 n = 10
 x = 1
 
-for i in range(1, n + 1):
+for i in range(1, n + 1): 
     x = x * i
 print x
 
@@ -77,12 +78,11 @@ print x
 print "Problem 5 solution follows:"
 
 numlines = 10
-x = 1
 
-for i in range(numlines):
-    i = numlines - 1
-    for i in range(1, numlines + 1):
-        x = x * i 
+for i in range(numlines, 0, -1):
+    x = 1
+    for j in range(1, i + 1):
+        x = x * j
     print x
     
 
@@ -93,19 +93,29 @@ for i in range(numlines):
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+numlines = 10
+k = 1
+
+for i in range(1, numlines + 1):
+    x = 1
+    for j in range(1, i + 1):
+        x = x * j
+    recip = 1.0/x
+    k = k + recip
+print k 
 
 ###
 ### Collaboration
 ###
 
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+# I worked with Robin on problems 1-4, and then Alex the tutor was an invaluable resource for 5 and 6. He was so great!
+# Oh, and I sent a few panicked, verging-on-tear texts to Amber. Sorry about that, Amber.
 
 ###
 ### Reflection
 ###
 
-# ... Write how long this assignment took you, including doing all the readings
-# ... and tutorials linked to from the homework page. Did the readings, tutorials,
-# ... and lecture contain everything you needed to complete this assignment?
+# ... This assignment took forever, primarily because I got a little hysterical during problem 5. I'm wary of admitting that, primarily
+# ... because I'm one of like, 6 women in the class and feel pressure to save face. Yadda yadda, gaslighting, etc.
+# ... I wish we had time to go over for loops in class--that would have helped a lot. Also, I'm a creature of repetition. If I have multiple
+# ... problems to practice the same lesson/function/operation/whatever, I'll understand and remember it better. Optional problems would be great.
