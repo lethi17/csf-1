@@ -1,6 +1,6 @@
-n = 2
+n = 100
 
-series = 'AW MAN'
+series = 'sum'
 
 x = 0
 y = 0
