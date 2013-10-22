@@ -1,0 +1,65 @@
+Name: Mary Kallem
+Evergreen Login: kalmar19
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+GC-content: 0.43029262963
+
+Problem 3:
+
+The variable 'linenum' has not been initialized, thus causing error.
+Similarly, hashtagging go_count means never initializing it, thus causing error
+
+Problem 4:
+
+# Total nucleotides seen so far.
+total_count = 0
+# Number of G&C and A&T nucleotides seen so far.
+gc_count = 0
+at_count = 0
+
+# for each base pair in the string,
+for bp in seq:
+    # increment the total number of bps we've seen
+    total_count = total_count + 1
+
+    # next, if the bp is a G or a C, else if bp is A or T
+    if bp == 'C' or bp == 'G':
+        # increment the count of gc
+        gc_count = gc_count + 1
+    elif bp == 'A' or bp == 'T':
+        at_count = at_count + 1
+
+
+# divide the gc_count by the total_count, and then divide at_count by total
+gc_content = float(gc_count) / total_count
+at_content = float(at_count) / total_count
+
+# Print the answer
+print 'GC-content:', gc_content
+print 'AC-content:', at_content
+Collaborations:
+
+Completed all by lonesome
+
+Reflection:
+
+That was easy! Modifying the loop in problem 4 was a helpful exercise.
+This is a good "don't panic" exercise, plus it's nice to see a potential
+application of our learning.
