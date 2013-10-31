@@ -3,7 +3,7 @@ Evergreen Login: kalmar19
 Computer Science Foundations
 Programming as a Way of Life
 Fall 2013
-Homework 3 
+Homework 3 ***(SCROLL DOWN FOR HW 4)*** 
 
 For each problem that requires a written answer, write (or copy-and-paste)
 your answers in this file.  When you are done, you should have replaced all
@@ -53,13 +53,46 @@ at_content = float(at_count) / total_count
 
 # Print the answer
 print 'GC-content:', gc_content
-print 'AC-content:', at_content
+print 'AT-content:', at_content
 Collaborations:
 
-Completed all by lonesome
+Completed all by my lonesome
 
 Reflection:
 
 That was easy! Modifying the loop in problem 4 was a helpful exercise.
 This is a good "don't panic" exercise, plus it's nice to see a potential
 application of our learning.
+
+Homework 4
+
+Problem 5:
+
+G count: 5738773
+C count: 5879128
+A count: 7701287
+T count: 7661547
+
+Problem 6:
+
+The Sum Count of all of them except test-small.fastq was off---this is because
+N's are included in the DNA strands... but what could it mean?! I'm changing it 
+so it instead divides by sum_count.
+
+Problem 7:
+
+AT/GC Ratio: 2.33333333333
+
+Problem 8:
+
+GC Classification: moderate GC content
+
+Collaboration:
+
+Completed independently. 
+
+Reflection:
+
+Still wondering what those N's mean. This was a great assignment! I'm beginning
+to understand how the general grammar of Python functions/what you can do 
+with it/etc.

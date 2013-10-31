@@ -54,6 +54,10 @@ total_count = 0
 # Number of G and C nucleotides seen so far.
 gc_count = 0
 at_count = 0
+g_count = 0
+c_count = 0
+a_count = 0
+t_count = 0
 
 # for each base pair in the string,
 for bp in seq:
@@ -64,8 +68,16 @@ for bp in seq:
     if bp == 'C' or bp == 'G':
         # increment the count of gc
         gc_count = gc_count + 1
+        if bp == 'C':
+            c_count += 1
+        else:
+            g_count += 1
     elif bp == 'A' or bp == 'T':
         at_count = at_count + 1
+        if bp == 'A':
+            a+count += 1
+        else:
+            t_count += 1
 
 
 # divide the gc_count by the total_count
