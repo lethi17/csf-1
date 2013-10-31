@@ -48,9 +48,3 @@ print "Problem 3 solution follows:"
 
 print ((a and b) or (not c) and not (d or e or f))
 
-
-###
-### Collaboration
-###
-
-# ... List your collaborators here, as a comment (on a line starting with "#").
