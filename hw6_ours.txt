@@ -17,18 +17,32 @@ ages = {'Nicholas':28, 'Mary':21, 'Ulises':14}
 
 Problem 4 (Calling a function)
 
-def date_of_birth(name):
-    dob = 2013 - name
+def date_of_birth(age):
+    dob = 2013 - age
     print "She was born in " + str(dob) + "."
     
-#What would you put in this line to call the function date_of_birth to find out
-#Mary's birth year?
+What would you put in this line to call the function date_of_birth to find out
+Mary's birth year?
 
-date_of_birth(Mary)
+date_of_birth(ages['Mary'])
 
 Call function date_of_birth to find out Mary's birth year.
 
 Problem 5 (Assertions)
+Explain what an assertion does. Why is this useful?
+Write an assertion that involves Nicholas.
 
-Problem 6 (Assertions)
-Problem 7 (Concept Title)
+Problem 6 (Using assertions for two different dictionaries)
+
+Create a new dictionary from your group's names and ages. Write an assertion that 
+tests that the sum of our group's ages is greater than the sum of your group's ages.
+Hint: Use the "sum('dictionary name'.values)" function!
+
+Problem 7 (New Dictionaries!)
+It's ten years later!
+
+Write a function that adds 10 years to each person in the dictionary, such that your output is exactly this:
+
+{'Ulises': 24, 'Nicholas': 38, 'Mary': 31}
+
+Hint: use a similar function to: "sum('dictionary name'.values)"
