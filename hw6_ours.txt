@@ -1,16 +1,34 @@
 Programming as a Way of Life
 Homework 6 Problems
 
-Group xx 
-Group Member 1 Name 
-Group Member 2 Name 
-Group Member 3 Name 
-Problem 3 (Concept Title)
+Group 15 / Pair 5
+Group Member 1 Nicholas Hefling
+Group Member 2 Mary Kallem
+Group Member 3 Ulises Herrera
 
-Problem 4 (Concept Title)
+Problem 3 (Creating Dictionaries):
+Create an empty dictionary called "ages". This dictionary will have peoples' names
+for keys and ages for values. Enter the following into your ages dictionary:
+Nicholas is 28, Mary is 21, and Ulises is 14.
 
-Problem 5 (Concept Title)
+By the end, your dictionary should look like this:
 
-Problem 6 (Concept Title)
+Ages = {'Nicholas':28, 'Mary':21, 'Ulises':14}
 
+Problem 4 (Calling a function)
+
+def date_of_birth(name):
+    dob = 2013 - name
+    print "She was born in " + str(dob) + "."
+
+Call function date_of_birth to find out Mary's birth year.
+
+Now add your groups ages to the dictionary our_ages
+
+Problem 5 (Calling Functions to Create Dictionaries)
+
+Mary = 21
+Nicholas = 28
+
+Problem 6 (Assertions)
 Problem 7 (Concept Title)
